@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build . -t igneaxx/EST-MET:latest
+        run: docker build . -t igneaxx/est-met:latest
 
       - name: Push Docker image
-        run: docker push igneaxx/EST-MET:latest
+        run: docker push igneaxx/est-met:latest
