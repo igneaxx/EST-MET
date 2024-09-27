@@ -18,7 +18,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.igneaxx }}
-          password: ${{ secrets.Aylin2024! }}
+          password: ${{ secrets.Aylin2024 }}
 
       - name: Build Docker image
         run: docker build . -t igneaxx/EST-MET:latest
