@@ -3,8 +3,8 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # O la rama en la que deseas que se ejecute el flujo de trabajo
-  workflow_dispatch:  # Permite ejecutar manualmente el flujo de trabajo
+      - main  # O la rama en la que deseas que se ejecute el flujo de trabajo.
+  workflow_dispatch:  # Permite ejecutar manualmente el flujo de trabajo.
 
 jobs:
   build:
